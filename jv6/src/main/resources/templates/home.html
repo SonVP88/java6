@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div th:insert="header"></div>
+<div class="row">
+    <div class="col-3" th:insert="article"></div>
+    <div class="col-9" th:insert="content"></div>
+</div>
+<div th:insert="footer"></div>
+</body>
+</html>

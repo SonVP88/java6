@@ -1,0 +1,10 @@
+<div th:fragment="article">
+    <div class="aside">
+        <table class="table table-bordered table-strip">
+            <h2 class="text-center">Category</h2>
+            <tr th:each="category : ${category}">
+                <td th:text="${category.name}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
